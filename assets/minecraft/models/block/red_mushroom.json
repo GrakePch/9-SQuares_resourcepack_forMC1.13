@@ -1,0 +1,35 @@
+{
+	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
+	"textures": {
+		"1": "block/mushroom_red_model",
+		"particle": "block/red_mushroom"
+	},
+	"elements": [
+		{
+			"name": "stem",
+			"from": [7, 0, 7],
+			"to": [9, 3, 9],
+			"faces": {
+				"north": {"uv": [6, 11, 8, 14], "texture": "#1"},
+				"east": {"uv": [6, 11, 8, 14], "texture": "#1"},
+				"south": {"uv": [6, 11, 8, 14], "texture": "#1"},
+				"west": {"uv": [6, 11, 8, 14], "texture": "#1"},
+				"up": {"uv": [6, 9, 8, 11], "texture": "#1"},
+				"down": {"uv": [6, 14, 8, 16], "texture": "#1"}
+			}
+		},
+		{
+			"name": "cube",
+			"from": [5, 3, 5],
+			"to": [11, 7, 11],
+			"faces": {
+				"north": {"uv": [6, 6, 0, 10], "texture": "#1"},
+				"east": {"uv": [6, 6, 0, 10], "texture": "#1"},
+				"south": {"uv": [0, 6, 6, 10], "texture": "#1"},
+				"west": {"uv": [0, 6, 6, 10], "texture": "#1"},
+				"up": {"uv": [0, 0, 6, 6], "texture": "#1"},
+				"down": {"uv": [0, 10, 6, 16], "texture": "#1"}
+			}
+		}
+	]
+}
