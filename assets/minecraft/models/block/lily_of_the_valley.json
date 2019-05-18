@@ -1,0 +1,148 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"main": "block/lily_of_the_valley_model",
+		"particle": "block/lily_of_the_valley"
+	},
+	"elements": [
+		{
+			"name": "stem_main",
+			"from": [7, 0, 7],
+			"to": [9, 14, 9],
+			"faces": {
+				"north": {"uv": [0, 2, 2, 16], "texture": "#main"},
+				"east": {"uv": [0, 2, 2, 16], "texture": "#main"},
+				"south": {"uv": [7, 2, 9, 16], "texture": "#main"},
+				"west": {"uv": [7, 2, 9, 16], "texture": "#main"},
+				"up": {"uv": [7, 11, 9, 16], "texture": "#main"}
+			}
+		},
+		{
+			"name": "core",
+			"from": [1, 6, 11],
+			"to": [5, 10, 15],
+			"faces": {
+				"north": {"uv": [11, 6, 15, 10], "texture": "#main"},
+				"east": {"uv": [11, 6, 15, 10], "texture": "#main"},
+				"south": {"uv": [11, 6, 15, 10], "texture": "#main"},
+				"west": {"uv": [11, 6, 15, 10], "texture": "#main"},
+				"up": {"uv": [12, 12, 16, 16], "texture": "#main"},
+				"down": {"uv": [11, 6, 15, 10], "texture": "#main"}
+			}
+		},
+		{
+			"name": "petal",
+			"from": [0, 5, 10],
+			"to": [6, 11, 16],
+			"faces": {
+				"north": {"uv": [10, 0, 16, 6], "texture": "#main"},
+				"east": {"uv": [10, 0, 16, 6], "texture": "#main"},
+				"south": {"uv": [10, 0, 16, 6], "texture": "#main"},
+				"west": {"uv": [10, 0, 16, 6], "texture": "#main"},
+				"up": {"uv": [10, 0, 16, 6], "texture": "#main"},
+				"down": {"uv": [10, 0, 16, 6], "texture": "#main"}
+			}
+		},
+		{
+			"name": "branch_heigher_1",
+			"from": [7, 12, 9],
+			"to": [9, 14, 14],
+			"faces": {
+				"east": {"uv": [5, 0, 10, 2], "texture": "#main"},
+				"south": {"uv": [5, 2, 7, 4], "texture": "#main"},
+				"west": {"uv": [4, 2, 9, 4], "texture": "#main"},
+				"up": {"uv": [4, 0, 9, 2], "rotation": 270, "texture": "#main"},
+				"down": {"uv": [7, 4, 9, 9], "texture": "#main"}
+			}
+		},
+		{
+			"name": "branch_heigher_2",
+			"from": [2, 12, 12],
+			"to": [7, 14, 14],
+			"faces": {
+				"north": {"uv": [0, 0, 5, 2], "texture": "#main"},
+				"south": {"uv": [2, 2, 7, 4], "texture": "#main"},
+				"west": {"uv": [2, 4, 4, 6], "texture": "#main"},
+				"up": {"uv": [5, 0, 10, 2], "texture": "#main"},
+				"down": {"uv": [5, 0, 10, 2], "texture": "#main"}
+			}
+		},
+		{
+			"name": "branch_heigher_3",
+			"from": [2, 10, 12],
+			"to": [4, 12, 14],
+			"faces": {
+				"north": {"uv": [2, 4, 4, 6], "texture": "#main"},
+				"east": {"uv": [2, 4, 4, 6], "texture": "#main"},
+				"south": {"uv": [2, 4, 4, 6], "texture": "#main"},
+				"west": {"uv": [2, 4, 4, 6], "texture": "#main"}
+			}
+		},
+		{
+			"name": "branch_lower_1",
+			"from": [9, 3, 7],
+			"to": [10, 5, 8],
+			"faces": {
+				"north": {"uv": [9, 11, 10, 13], "texture": "#main"},
+				"south": {"uv": [9, 11, 10, 13], "texture": "#main"},
+				"up": {"uv": [9, 11, 10, 12], "texture": "#main"},
+				"down": {"uv": [9, 12, 10, 13], "texture": "#main"}
+			}
+		},
+		{
+			"name": "leaf_1",
+			"from": [10, 2, 7],
+			"to": [14, 6, 8],
+			"faces": {
+				"north": {"uv": [12, 12, 16, 16], "texture": "#main"},
+				"east": {"uv": [15, 12, 16, 16], "texture": "#main"},
+				"south": {"uv": [12, 12, 16, 16], "texture": "#main"},
+				"west": {"uv": [12, 12, 13, 16], "texture": "#main"},
+				"up": {"uv": [12, 12, 16, 13], "texture": "#main"},
+				"down": {"uv": [12, 15, 16, 16], "texture": "#main"}
+			}
+		},
+		{
+			"name": "branch_lower_2",
+			"from": [7, 7, 6],
+			"to": [8, 9, 7],
+			"faces": {
+				"east": {"uv": [9, 11, 10, 13], "texture": "#main"},
+				"west": {"uv": [9, 11, 10, 13], "texture": "#main"},
+				"up": {"uv": [9, 11, 10, 12], "rotation": 270, "texture": "#main"},
+				"down": {"uv": [9, 12, 10, 13], "rotation": 90, "texture": "#main"}
+			}
+		},
+		{
+			"name": "leaf_2",
+			"from": [7, 6, 2],
+			"to": [8, 10, 6],
+			"faces": {
+				"north": {"uv": [15, 12, 16, 16], "texture": "#main"},
+				"east": {"uv": [12, 12, 16, 16], "texture": "#main"},
+				"south": {"uv": [12, 12, 13, 16], "texture": "#main"},
+				"west": {"uv": [12, 12, 16, 16], "texture": "#main"},
+				"up": {"uv": [12, 12, 16, 13], "rotation": 270, "texture": "#main"},
+				"down": {"uv": [12, 15, 16, 16], "rotation": 90, "texture": "#main"}
+			}
+		}
+	],
+	"groups": [0,
+		{
+			"name": "1",
+			"children": [1, 2]
+		},
+		{
+			"name": "branch",
+			"children": [3, 4, 5]
+		},
+		{
+			"name": "leaf_1",
+			"children": [6, 7]
+		},
+		{
+			"name": "leaf_2",
+			"children": [8, 9]
+		}
+	]
+}
